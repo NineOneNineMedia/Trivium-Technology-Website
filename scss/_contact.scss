@@ -1,6 +1,48 @@
+//Styling for masthead
+.masthead-contact {
+  .contact-container {
+    margin: 0;
+  }
+
+  .card-contact {
+    font-family: -apple-system, BlinkMacSystemFont, "Open Sans", sans-serif;
+    font-size: 3em;
+    font-weight: 800;
+    height: 60vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    background: #86c232; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to bottom,
+      #474b4f,
+      #222629
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      #474b4f,
+      #222629
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  #contact-header {
+    margin: 0;
+    padding: 100px 0;
+    font: 44px "Arial";
+    text-align: center;
+    position: relative;
+    color: white;
+    transform: skewY(6deg);
+    transform-origin: top left;
+  }
+}
+
 // Styling for the contact section
 section#contact {
-  background-color: $gray-900;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -21,7 +63,7 @@ section#contact {
     }
   }
   .form-control:focus {
-    border-color: $primary;
+    border-color: $primary3;
     box-shadow: none;
   }
   ::-webkit-input-placeholder {
