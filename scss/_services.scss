@@ -1,7 +1,5 @@
 //Styling for masthead
 .masthead-services {
-  background-color: white;
-
   .services-container {
     margin: 0;
     transform: skewY(-6deg);
@@ -41,4 +39,11 @@
     transform: skewY(6deg);
     transform-origin: top left;
   }
+}
+
+.services-page-section {
+  padding: 8rem 0;
+}
+.services-section-2 {
+  background-color: #222629;
 }
