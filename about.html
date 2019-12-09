@@ -45,7 +45,11 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto my-2 my-lg-0">
@@ -72,7 +76,7 @@
       <div class="about-container h-100">
         <div class="card-about">
           <h1 id="about-header">
-            Learn About Trivium
+            TRIVIUM 
           </h1>
         </div>
       </div>
@@ -143,28 +147,30 @@
 
     <!-- Quote -->
     <section class="about-page-section about-section-3">
-      <div class="row justify-content-center">
-        <div class="card col-lg-8">
-          <div class="card-header">
-            Company
-          </div>
-          <div class="card-body">
-            <blockquote class="blockquote mb-0">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-                posuere erat a ante.
-              </p>
-              <footer class="blockquote-footer">
-                Someone at <cite title="Source Title">Company</cite>
-              </footer>
-            </blockquote>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="card col-lg-8">
+            <div class="card-header">
+              Company
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integer posuere erat a ante.
+                </p>
+                <footer class="blockquote-footer">
+                  Someone at <cite title="Source Title">Company</cite>
+                </footer>
+              </blockquote>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Clients -->
-    <section class="about-page-section about-section-4">
+    <!-- <section class="about-page-section about-section-4">
       <div class="container text-center">
         <h2 class="mb-4">Supporting Over 100 Clients Around The World!</h2>
         <!-- Swiper -->
@@ -188,7 +194,7 @@
           <div class="swiper-button-prev"></div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Footer -->
     <footer class="footer">
@@ -223,6 +229,11 @@
           prevEl: ".swiper-button-prev"
         }
       });
+    </script>
+    <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+      }
     </script>
   </body>
 </html>

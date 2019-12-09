@@ -45,7 +45,11 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto my-2 my-lg-0">
@@ -55,10 +59,9 @@
             <li class="nav-item">
               <a class="nav-link " href="services.html">Services</a>
             </li>
-            <li class="nav-item">
+            <!--  <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
-            </li>
-
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
@@ -69,10 +72,10 @@
 
     <!-- Masthead -->
     <header class="masthead-services">
-      <div class="services-container h-100">
+      <div class="services-container ">
         <div class="card-services">
           <h1 id="services-header">
-            How Can Trivium support Your Company?
+            HOW CAN WE TRANSFORM YOUR BUSINESS?
           </h1>
         </div>
       </div>
@@ -81,25 +84,25 @@
     <!-- Services Section -->
     <section class="services-page-section services-section-1">
       <div class="container">
-        <h2 class="text-center mt-0">We Take A Consultative Approach</h2>
+        <h2 class="text-center mt-0">We Are Committed To Your Vision</h2>
         <div class="row justify-content-center">
           <div class="col-lg-6 text-center">
             <div class="mt-5">
               <i class="fas fa-8x fa-handshake text-primary mb-4"></i>
               <p class="text-muted mb-0">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
-                qui, exercitationem ipsa nisi quidem cupiditate aut maiores
-                voluptatem, saepe ducimus, illo suscipit itaque et dignissimos
-                laborum. Ullam, facilis illo. Aperiam, amet? Blanditiis
-                perferendis consectetur, beatae nulla esse ducimus amet fuga
-                sapiente neque odio, et tempora praesentium voluptate deleniti
-                numquam, quia facere aut voluptatibus veritatis! Dolor, soluta
-                esse facere saepe quaerat dolorem tempora voluptates cumque
-                maxime obcaecati inventore? Veniam veritatis accusantium
-                quibusdam quisquam labore. Aliquam aspernatur eos vero magnam
-                cum ducimus. Quis repellat possimus recusandae. Nihil repellat,
-                beatae ducimus quod aperiam ea praesentium iste reiciendis
-                placeat nesciunt tempora nam? Blanditiis, voluptatem.
+                Our consultants deliver high impact business solutions using
+                cloud and hybrid technologies, whether it has to do with
+                productivity, collaboration, mobility and relationship
+                management, or with identity management and advanced analytics.
+                We’ve undertaken projects in strategic technology planning, and
+                we can always help a business use both new and existing
+                solutions better. However, we’ve learned that no one solution
+                fits everyone, so we tailor our plans to fit the needs of your
+                business. We plan, build and deploy Microsoft solutions, and
+                drive additional value through enterprise-class cloud
+                applications and a portfolio of managed services that help keep
+                desktops, systems and cloud services healthy and performing
+                well.
               </p>
             </div>
           </div>
@@ -110,38 +113,77 @@
     <!-- Services Section -->
     <section class="services-page-section services-section-2">
       <div class="container">
-        <h2 class="text-center text-white mt-0">Choose Your Deployment</h2>
+        <h2 class="text-center text-white mt-0">Solutions</h2>
         <hr class="divider my-4" />
         <div class="row justify-content-center">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-              <i class="fas fa-4x fa-building text-primary mb-4"></i>
-              <h3 class="h4 text-white mb-2">On-Premise Solutions</h3>
-              <p class="text-muted mb-0">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dignissimos modi deleniti quae dolores eius totam.
-              </p>
-            </div>
+          <div class="col-md-4 mt-5">
+            <ul class="list-group">
+              <li class="list-group-item active">On-Premises</li>
+              <li class="list-group-item">Manager OS Deployment</li>
+              <li class="list-group-item">Architecture and Managed Services</li>
+              <li class="list-group-item">Microsoft Exchange Deployments</li>
+              <li class="list-group-item">SharePoint</li>
+              <li class="list-group-item">Application Packaging</li>
+            </ul>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-              <i class="fas fa-4x fa-cloud text-primary mb-4"></i>
-              <h3 class="h4 text-white mb-2">Cloud Sloutions</h3>
-              <p class="text-muted mb-0">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-                laborum cumque, nihil nulla sequi numquam.
-              </p>
-            </div>
+          <div class="col-md-4 mt-5">
+            <ul class="list-group">
+              <li class="list-group-item active">Cloud</li>
+              <li class="list-group-item">Azure Site Recovery</li>
+              <li class="list-group-item">Azure Single Sign On</li>
+            </ul>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-              <i class="fas fa-4x fa-project-diagram text-primary mb-4"></i>
-              <h3 class="h4 text-white mb-2">Hybrid Solutions</h3>
-              <p class="text-muted mb-0">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-                distinctio quisquam quidem libero? Reiciendis, saepe.
-              </p>
-            </div>
+          <!-- <div class="col-md-4 mt-5">
+            <ul class="list-group">
+              <li class="list-group-item active">Hybrid</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Morbi leo risus</li>
+              <li class="list-group-item">Porta ac consectetur ac</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+          </div> -->
+        </div>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-4 mt-5">
+            <ul class="list-group">
+              <li class="list-group-item active">Enterprise Mobility</li>
+              <li class="list-group-item">SOTI MDM Administration</li>
+              <li class="list-group-item">JAMF MDM Device Administration</li>
+              <li class="list-group-item">
+                Microsoft EMS - Intune Architecture And Management
+              </li>
+              <li class="list-group-item">
+                Hybrid Intune and SCCM Architectural Development
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 mt-5">
+            <ul class="list-group">
+              <li class="list-group-item active">Cyber Security</li>
+              <li class="list-group-item">
+                Azure Information Protection deployments
+              </li>
+              <li class="list-group-item">Azure ATP</li>
+              <li class="list-group-item">
+                Cybersecurity & Operation/Information Technology Delivery
+              </li>
+              <li class="list-group-item">
+                Process Oriented Information Security Approach For Comprehensive
+                Accreditation Package (CAP) Deliverables
+              </li>
+              <li class="list-group-item">
+                Language and guidance IAW Intelligence Community Directive (ICD)
+                503, National Institute of Standards and Technology (NIST)
+                800-53r4
+              </li>
+              <li class="list-group-item">
+                Security Categorization and Control Selection for National
+                Security Systems Instruction CNSSI No. 1253, and National
+                Security Agency (NSA) guidance
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -160,12 +202,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">
-              Schedule Your Appointment Today!
+            <h2 class="section-heading text-uppercase text-dark">
+              Schedule Your Consultation Today!
             </h2>
-            <h3 class="section-subheading text-muted">
-              Lorem ipsum dolor sit amet consectetur.
-            </h3>
           </div>
         </div>
         <div class="row">
@@ -241,7 +280,7 @@
     <footer class="footer">
       <div class="footer-container">
         <img class="footer-logo" src="img/TRIVIUM SMALL.png" />
-        <h4>Copyright &copy; 2019 Trivium Technology</h4>
+        <h6>Copyright &copy; 2019 Trivium Technology</h6>
       </div>
     </footer>
 
@@ -255,5 +294,10 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
+    <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+      }
+    </script>
   </body>
 </html>

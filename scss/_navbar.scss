@@ -14,10 +14,34 @@
     color: $white;
   }
 
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
   .navbar-nav {
     .nav-item {
       .nav-link {
-        color: $white;
+        color: white;
         font-family: $font-family-sans-serif;
         font-weight: $font-weight-bold;
         font-size: 0.9rem;
@@ -45,10 +69,10 @@
     .navbar-nav {
       .nav-item {
         .nav-link {
-          color: fade-out($white, 0.3);
+          color: white;
           padding: 0 1rem;
           &:hover {
-            color: $white;
+            color: $primary;
           }
         }
         &:last-child {
@@ -63,7 +87,7 @@
       box-shadow: $box-shadow;
       background-color: #222629;
       .navbar-brand {
-        color: $white;
+        color: white;
         &:hover {
           color: $primary;
         }
@@ -71,7 +95,7 @@
       .navbar-nav {
         .nav-item {
           .nav-link {
-            color: $white;
+            color: white;
             &:hover {
               color: $primary;
             }
