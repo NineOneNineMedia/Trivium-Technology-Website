@@ -1,52 +1,55 @@
 //Styling for masthead
-.masthead-contact {
-  .contact-container {
-    margin: 0;
-  }
+// .masthead-contact {
+//   .contact-container {
+//     margin: 0;
+//   }
 
-  .card-contact {
-    font-family: -apple-system, BlinkMacSystemFont, "Open Sans", sans-serif;
-    font-size: 3em;
-    font-weight: 800;
-    height: 700px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    letter-spacing: -2px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transform: skewY(-6deg);
-    transform-origin: top left;
-    background: #86c232; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to bottom,
-      #474b4f,
-      #222629
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to bottom,
-      #474b4f,
-      #222629
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
+//   .card-contact {
+//     font-family: -apple-system, BlinkMacSystemFont, "Open Sans", sans-serif;
+//     font-size: 3em;
+//     font-weight: 800;
+//     height: 700px;
+//     width: 100%;
+//     margin: 0;
+//     padding: 0;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     letter-spacing: -2px;
+//     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+//     transform: skewY(-6deg);
+//     transform-origin: top left;
+//     background: #86c232; /* fallback for old browsers */
+//     background: -webkit-linear-gradient(
+//       to bottom,
+//       #474b4f,
+//       #222629
+//     ); /* Chrome 10-25, Safari 5.1-6 */
+//     background: linear-gradient(
+//       to bottom,
+//       #474b4f,
+//       #222629
+//     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+//   }
 
-  #contact-header {
-    margin: 0;
-    font: 60px "Arial";
-    text-align: center;
-    color: white;
-    transform: skewY(6deg);
-    transform-origin: top left;
-  }
+//   #contact-header {
+//     margin: 0;
+//     font: 60px "Arial";
+//     text-align: center;
+//     color: white;
+//     transform: skewY(6deg);
+//     transform-origin: top left;
+//   }
+// }
+
+.contact-page {
+  padding: 7.15rem 0;
+  height: 100%;
+  background-color: #222629;
 }
 
 // Styling for the contact section
 section#contact {
-  background-image: url("../img/map-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
   .section-heading {
     color: $white;
   }
