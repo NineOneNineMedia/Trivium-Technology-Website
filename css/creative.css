@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Trivium v5.1.8 ()
- * Copyright 2013-2019 
+ * Copyright 2013-2020 
  * Licensed under MIT (https://github.com/BlackrockDigital/trivium-technology/blob/master/LICENSE)
  */
 
@@ -9592,7 +9592,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 #mainNav {
@@ -9706,8 +9706,8 @@ header.masthead h1 {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
-    min-height: 40rem;
+    height: 30vh;
+    min-height: 30rem;
     padding-top: 72px;
     padding-bottom: 0;
   }
@@ -9894,10 +9894,9 @@ section#contact :-ms-input-placeholder {
   transform: translate(-50%, -50%);
 }
 
-.services-page-section {
-  padding: 8rem 0;
-}
-
+/* .services-page-section {
+  padding: 6rem 0;
+} */
 .services-section-1 {
   background-color: #222629;
 }
@@ -9926,7 +9925,7 @@ section#contact :-ms-input-placeholder {
   width: auto;
   margin: auto;
   max-width: 680px;
-  padding: 5px 15px;
+  padding: 20px 15px;
   color: white;
 }
 
